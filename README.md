@@ -1,15 +1,29 @@
-# Title of Project: [PROJECT_TITLE_HERE]
+# Student Performance Predictor
 
 ## Team Members:
-1. [TEAM_MEMBER_1_NAME]
-2. [TEAM_MEMBER_2_NAME]
-3. [TEAM_MEMBER_3_NAME]
-4. [TEAM_MEMBER_4_NAME]
+1. Divya Pratap Singh
+2. Aman Kumar
+3. Vikas Kumar
 
 ## Steps for Execution:
-1. [STEP 1]
-2. [STEP 2]
-   (Add more steps as needed)
+1. Option 1: Run locally
+   Clone the repository
+   Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+   Run the Streamlit app:
+   ```bash
+   streamlit run App.py
+2. Option 2: Run using Docker
+   Build the Docker image:
+   ```bash
+   docker build -t student-predictor .
+   ```
+   Run the Docker container:
+   ```bash
+   docker run -p 8501:8501 student-predictor
+   ```)
 
 ## Checklist:
 1. Final Project Report
